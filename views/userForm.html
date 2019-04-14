@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practicas de php </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/userForm.css">
+</head>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <form action="../controller/insertar.php" method="POST">
+                <div class="form-group">
+
+                    <input type="text" class="form-control" placeholder="Agrega tu nombre de usuario" name="user">
+                </div>
+                <div class="form-group">
+
+                    <input type="password" class="form-control" placeholder="Agrega tu contraseña" name="password">
+                </div>
+                <div class="form-group">
+
+                    <input type="text" class="form-control" placeholder="Agrega una descripción" name="des">
+                </div>
+                <div class="form-group">
+
+                    <input type="text" class="form-control" placeholder="Agrega un comentario" name="comen">
+                </div>
+                <div class="form-group">
+
+                    <input type="submit" value="Registrarte" class="btn btn-outline-primary btn-block">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-5 offset-md-1">
+            <img src="../assets//descarga.png" alt="img de registro">
+        </div>
+    </div>
+</div>
