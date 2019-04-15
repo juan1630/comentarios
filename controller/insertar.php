@@ -9,7 +9,7 @@ $descrip=$_POST['des'];
 $comnet=$_POST['comen'];
 $mensaje="";
 
-if(count($user) > 0 && count($pass) > 0 && count($descrip) > 0 && count($comnet) > 0 ){
+if(strlen($user) > 0 && strlen($pass) > 0 && strlen($descrip) > 0 && strlen($comnet) > 0 ){
     
     
     $consultas = new Consultas();

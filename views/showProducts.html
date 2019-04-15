@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practicas de php </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/userForm.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-3">
+                <form action="../controller/producto.controller.php" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre del producto</label>
+                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Agrega un nombre del producto">
+                    </div>
+                    <div class="form-group">
+                        <label for="categoria">Categoria del producto</label>
+                        <input type="text" name="categoria" id="categoria" class="form-control" placeholder="Agrega una categoria del producto">
+                    </div>
+                    <div class="form-group">
+                        <label for="precio">Precio</label>
+                        <input type="text" name="precio" id="precio" class="form-control" placeholder="Agrega un precio del producto">
+                    </div>
+                    <div class="form-group">
+                        <label for="desc">Descrpción</label>
+                        <input type="text" name="desc" id="desc" class="form-control" placeholder="Agrega una descripción del producto">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Agregar" class="btn btn-success btn-block">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
